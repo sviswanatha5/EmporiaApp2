@@ -10,11 +10,11 @@
 		</data>
 		<key>flutter_assets/AssetManifest.bin</key>
 		<data>
-		noGr2TYWhTCjIpmkiWpLko+398E=
+		t3o8kZqIw5eVAK+kpNLXB27ySA0=
 		</data>
 		<key>flutter_assets/AssetManifest.json</key>
 		<data>
-		fbg3hRqKKTAzJtMPLZsKKG+Zwfo=
+		VaEncWgFKBn5c3sElYrBpm5rFMk=
 		</data>
 		<key>flutter_assets/FontManifest.json</key>
 		<data>
@@ -22,7 +22,7 @@
 		</data>
 		<key>flutter_assets/NOTICES.Z</key>
 		<data>
-		FZebhgVKxySnz/pxiPdRlCDN1fY=
+		dhrGa9nlbv08gaFSFy2/yp0Z+3Q=
 		</data>
 		<key>flutter_assets/fonts/MaterialIcons-Regular.otf</key>
 		<data>
@@ -48,6 +48,10 @@
 		<data>
 		kLQuyfT0eXc/+n/bgIo/gxNduI8=
 		</data>
+		<key>flutter_assets/lib/images/logo.jpg</key>
+		<data>
+		N4aUSSGjg/P0QejjR9BcBXKGopA=
+		</data>
 		<key>flutter_assets/lib/images/scooter.png</key>
 		<data>
 		NjbaBmRakKFKlAICdhYUUeDBrus=
@@ -71,14 +75,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Y3IXUjlOMHslFjM8Gsp/lm8nnFhzAHUBTkCFBa7BJaM=
+			aMjPIeEB3GLGcljHmvPzP1uEdBWgmcBpePYP2HaACAA=
 			</data>
 		</dict>
 		<key>flutter_assets/AssetManifest.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			xGiaZw6WpAHT727t5Nnc1EGZpjd43/KGWt51dB3vsY8=
+			aJyIZsGJrnVEjNR8C8uxVEg52NfMgNipLUlgjeosPG4=
 			</data>
 		</dict>
 		<key>flutter_assets/FontManifest.json</key>
@@ -92,7 +96,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			P6PYS7zE13cJ06v4ObxlR5GnpNqZ4X4EAMLKXkTgRTM=
+			fc1DRcH7DjJ3knvIZhyaEADoOcwcKS/mMpUZI7jsXCM=
 			</data>
 		</dict>
 		<key>flutter_assets/fonts/MaterialIcons-Regular.otf</key>
@@ -128,6 +132,13 @@
 			<key>hash2</key>
 			<data>
 			YagngSrLUzwZWufY1NE2XxQqCmUMhe9kEOT153cwiDc=
+			</data>
+		</dict>
+		<key>flutter_assets/lib/images/logo.jpg</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			lehcOuupNTyN7+IPJuvHEAXpq2Ckx01Nq3+HUvim1Ok=
 			</data>
 		</dict>
 		<key>flutter_assets/lib/images/scooter.png</key>
