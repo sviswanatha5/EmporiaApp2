@@ -5,6 +5,7 @@ import "package:practice_project/dashboard_widgets/favorites.dart";
 import "package:practice_project/dashboard_widgets/profile.dart";
 import "package:practice_project/dashboard_widgets/searchbar.dart";
 import "package:practice_project/screens/for_you_page.dart";
+import "package:practice_project/screens/messages_screen.dart";
 import "package:practice_project/screens/product_page.dart";
 /*
 class FirstScreen extends StatelessWidget {
@@ -82,7 +83,7 @@ class _DashboardScreenState extends State<DashboardScreen> {
 
 
   List<Widget> get widgetOptions =>
-      [ForYouPage(),  ProductPage(), FavoriteProducts(), AddProduct(),  ProfileWidget()];
+      [ForYouPage(),  ProductPage(), FavoriteProducts(), MessagesScreen(), AddProduct(),  ProfileWidget()];
 
   @override
   Widget build(BuildContext context) {
@@ -107,6 +108,10 @@ class _DashboardScreenState extends State<DashboardScreen> {
           BottomNavigationBarItem(
             icon: Icon(Icons.favorite),
             label: 'Favorites',
+          ),
+          BottomNavigationBarItem(
+            icon: Icon(Icons.chat_bubble_outlined),
+            label: 'Connect',
           ),
           BottomNavigationBarItem(
             icon: Icon(Icons.add_box_outlined),

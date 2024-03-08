@@ -54,6 +54,7 @@ dependencies:
   photo_view: ^0.14.0
   cached_network_image: ^3.3.1
   firebase_storage: ^11.6.8
+  url_launcher: ^6.2.5
 
 dev_dependencies:
   flutter_test:

@@ -1,6 +1,7 @@
 import "package:cloud_firestore/cloud_firestore.dart";
 import "package:firebase_auth/firebase_auth.dart";
 import "package:flutter/material.dart";
+import "package:url_launcher/url_launcher.dart";
 
 class ProfileWidget extends StatelessWidget {
   final String _email = FirebaseAuth.instance.currentUser!.email.toString();
@@ -39,23 +40,41 @@ class ProfileWidget extends StatelessWidget {
           padding: const EdgeInsets.symmetric(horizontal: 16.0, vertical: 8.0),
           child: OutlinedButton(
             onPressed: () {
-              signUserOut();
-            },
-            child: const Text('Logout'),
-          ),
-        ),
-        Padding(
-          padding: const EdgeInsets.symmetric(horizontal: 16.0, vertical: 8.0),
-          child: OutlinedButton(
-            onPressed: () {
               Navigator.push(context,
                   MaterialPageRoute(builder: (context) => ButtonGridScreen()));
             },
             child: const Text('Edit Preferences'),
           ),
         ),
+        Padding(
+          padding: const EdgeInsets.symmetric(horizontal: 16.0, vertical: 8.0),
+          child: OutlinedButton(
+            onPressed: () {
+              launchFeedbackForm();
+            },
+            child: const Text('FeedBack!'),
+          ),
+        ),
+        Padding(
+          padding: const EdgeInsets.symmetric(horizontal: 16.0, vertical: 8.0),
+          child: OutlinedButton(
+            onPressed: () {
+              signUserOut();
+            },
+            child: const Text('Logout'),
+          ),
+        ),
       ],
     );
+  }
+}
+
+launchFeedbackForm() async {
+  Uri formsWebsite = Uri.parse( 'https://forms.gle/KAXmLJtCWutYXsXr5');
+  if (await canLaunchUrl(formsWebsite)) {
+    await launchUrl(formsWebsite);
+  } else {
+    throw 'Could not launch';
   }
 }
 
